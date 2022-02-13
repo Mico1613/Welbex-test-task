@@ -1,0 +1,16 @@
+.nav {
+  min-width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 500;
+  margin-bottom: 100px;
+  .link {
+    font-size: 2rem;
+    color: #fff;
+    user-select: none;
+  }
+  .active {
+    color: rgb(138, 138, 245);
+    text-shadow: 2px 2px 2px #000;
+  }
+}
