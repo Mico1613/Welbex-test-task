@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+  align-items: center;
+  .isCompleted {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .completed {
+    background: url("../../assets/checked.png") no-repeat center / cover;
+  }
+  input {
+    width: 500px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    background-color: transparent;
+    &:disabled {
+      color: #000;
+    }
+  }
+  .isAble {
+    background-color: #fff;
+  }
+
+  img {
+    cursor: pointer;
+    margin-left: 15px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

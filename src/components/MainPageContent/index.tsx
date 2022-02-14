@@ -1,8 +1,7 @@
-import React from "react";
 import styles from "./MainPageContent.module.scss";
-type Props = {};
 
-function MainPageContent({}: Props) {
+
+function MainPageContent() {
   return (
     <main className={styles.main}>
       <p>
